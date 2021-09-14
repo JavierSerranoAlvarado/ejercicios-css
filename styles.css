@@ -1,0 +1,29 @@
+/* body{
+    background-color:aliceblue;
+} */
+
+#title{
+    color:rgb(4, 165, 4);
+    text-align: center;
+}
+
+/* p{
+    color: aquamarine;
+    background-color:black;
+} */
+
+.p-large{
+    font-size: 3rem;
+}
+.p-green{
+    color:green;
+    background-color:pink;
+}
+
+.p-red{
+    color:red;
+    background-color:black;
+}
+/* h1{
+    color:red;
+} */
