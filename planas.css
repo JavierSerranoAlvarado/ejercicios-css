@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+    font-size:2rem;
+}
+.uno {
+  font-family: "Anton", sans-serif;
+  color: blue;
+  animation: mover 5s  infinite;
+}
+.dos {
+  font-family: "Bebas Neue", cursive;
+  color: green;
+  animation: mover 1s  infinite;
+}
+.tres {
+  font-family: "Maven Pro", sans-serif;
+  color: purple;
+  animation: mover 2s  infinite;
+}
+.cuatro {
+  font-family: "Patrick Hand", cursive;
+  color: gray;
+  animation: mover 1.5s infinite;
+}
+.cinco {
+  font-family: "Varela Round", sans-serif;
+  color: red;
+  animation: mover 3s  infinite;
+}
+
+/* @keyframes mover{
+    0%{ transform: translate(0rem,  0) scale(1); }
+    50%{ transform: translate(2rem , 0) scale(1.2); }
+    100%{ transform: translate(0rem , 0) scale(1) ;}
+} */

@@ -1,0 +1,10 @@
+.galeria-carrusel {
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: scroll;
+
+}
+
+.galeria-carrusel img {
+  height: 20rem;
+}

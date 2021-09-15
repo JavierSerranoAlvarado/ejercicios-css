@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(336deg,#5c9ead 0%, #eeeeee 46%, #326273 100%); 
+}
+
+h1 {
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav img {
+  margin-right: auto;
+  height: 2.5rem;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  padding: 0 1rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+header nav ul li a:hover {
+    color: #5c9ead;
+  }

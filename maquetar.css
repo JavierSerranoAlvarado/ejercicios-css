@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(200, 200, 200);
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  margin: 3rem;
+}
+section {
+  position: relative;
+}
+
+.subtitulo {
+  color: white;
+  background-color: gray;
+}
+
+section img {
+  height: 10rem;
+  width: 20rem;
+  floar:left;
+}
+
+section div {
+  position: absolute;
+  top: 2rem;
+  left: 21rem;
+}
+
+.fecha {
+  font-style: italic;
+  color: red;
+}
+
+.recomendacion {
+  font-weight: bold;
+  background-color: white;
+}

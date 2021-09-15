@@ -1,0 +1,39 @@
+.contactar {
+  width: 25rem;
+  height: 20rem;
+  margin: 0 auto;
+  border: 1px solid white;
+  background: #eeeeee2c;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.contactar form {
+  width: 20rem;
+  height: 18rem;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+}
+
+.contactar form input,
+.contactar form textarea {
+  outline: none;
+  background: rgba(255, 255, 255, 0.63);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.contactar form button {
+  width: 5rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.contactar form button:hover {
+    background-color: #5C9EAD;
+    cursor: pointer;
+  }
+  
