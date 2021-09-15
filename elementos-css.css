@@ -1,0 +1,38 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/55/e4/fd/55e4fdf5440f722acf98d05189405141.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.title{
+    text-align: center; /* Alineacion de texto */
+    color: royalblue; /* Color del texto */
+    background-color:black; /* Poner color de fondo */
+		border: 2px solid red; 
+/* (2px) Tamaño del borde, (solid) tipo de bode, (red) color del borde */
+}
+
+.subtitulo{
+    background-color: red;
+    color:white;
+    text-align: center;
+    padding: 20px; /* generar un margen interno del elemento*/
+    margin: 30px; /* Espacio entre elementos */
+}
+
+#caja{
+    background-color: black;
+}
+
+/*Trabajar con sub-elementos*/
+#caja p { /*Seleccionar el P dentro del DIV #caja */
+    color:white;
+}
+
+
+#caja{
+    width:400px;
+    height: 200px;
+    margin: 0 auto;
+}

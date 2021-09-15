@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(223, 223, 223);
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  background-color: rgb(98, 98, 98);
+}
+h3 {
+  color: purple;
+  background-color: rgb(146, 146, 146);
+}
+
+.parrafo {
+  background-color: rgb(202, 201, 201);
+}
+
+.datos-importantes {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.fecha {
+  color: green;
+}

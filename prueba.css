@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(192, 210, 235);
+}
+
+header {
+    text-align: right;
+}
+
+section h2 {
+    text-transform: uppercase;
+}
+
+section p{
+    text-indent: 1.5rem;
+}
+
+.tituloColor {
+  color: red;
+  font-family: cursive;
+  font-size: 1.8rem;
+}
+
+.palabrasEspeciales {
+  color: rgb(255, 102, 0);
+  font-weight: bold;
+}
+
+.fechas {
+  color: orange;
+}
+
+.referencias {
+  font-style: italic;
+  color: green;
+  background: white;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}
+
+footer p {
+  margin: 0;
+}
