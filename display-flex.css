@@ -1,0 +1,43 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* altura minima del cdocumento */
+    min-height:600px;
+    border: 2px solid black;
+    /* Hace el contenedor flex */
+    display:flex;
+    /* aliena los elementos de manera horizontal */
+    justify-content:center;
+    /* alinea los elementos de manera vertical */
+    align-items: flex-start;
+    /* los elementos que se "desborden" pasaran a la siguiente columna */
+    flex-wrap: wrap;
+    
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.caja1{
+    border:1px solid red;
+    order:1;
+}
+.caja2{
+    border:1px solid yellow;
+    order:3;
+    
+    align-self: flex-end;
+}
+.caja3{
+    border:1px solid royalblue;
+    order:2;
+}
+.caja4{
+    border:1px solid purple;
+    order:4;
+}
